@@ -1,5 +1,43 @@
 .luxury{
     background-image: url("building.png");
     background-size: 100% 100%;
-    height: 50rem;
+    /* height: 50rem; */
 }
+.hotel{
+        background-color: burlywood;
+        width: 9rem;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        text-align: center;
+}
+.home{
+    display: flex!important;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-link{
+    color: white;
+}
+@media screen and (max-width: 600px) {
+    .luxury{
+        background-color: rgb(41, 177, 236);
+        background-image: none;
+        background-size: 100% 100%;
+        height: 18rem;
+    }
+  }
+  .Book{
+    display: flex!important;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    margin-top: 20rem;
+  }
+  .enjoy{
+    margin-top: 10rem;
+  }
+  .UK{
+      display: flex!important;
+      flex-direction: column;
+      align-items: center;
+  }
